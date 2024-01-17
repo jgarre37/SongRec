@@ -12,7 +12,7 @@ import asyncio
 # Set up Spotify credentials
 client_id = "19777ac6a5924c0aa8bc8526c9c53f47"
 client_secret = "cd1fc2f482f046a6a8a8937b1382e5ec"
-redirect_uri = "http://localhost:3001"
+redirect_uri = "http://localhost:30069"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri, scope="playlist-read-private"))
 
